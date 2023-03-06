@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_config_social_links",
+  "info": {
+    "displayName": "socialLink",
+    "icon": "hands-helping"
+  },
+  "options": {},
+  "attributes": {
+    "socialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "GitHub",
+        "Youtube",
+        "Twitter",
+        "Facebook",
+        "WhatsApp"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
